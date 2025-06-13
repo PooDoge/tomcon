@@ -67,36 +67,6 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-        "ripple": {
-          from: { opacity: "1" },
-          to: {
-            width: "600px",
-            height: "300px",
-            borderWidth: "1px",
-            top: "-100px",
-            opacity: "0"
-          }
-        },
-        "ripple-2": {
-          "0%": {
-            opacity: "1",
-          },
-          "50%": {
-            opacity: "0",
-          },
-          "100%": {
-            width: "200px",
-            height: "100px",
-            borderWidth: "1px",
-            top: "100px",
-            left: "200px",
-          }
-        },
-        "drip": {
-          to: {
-            top: "190px"
-          }
-        }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",

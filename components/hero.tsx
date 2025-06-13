@@ -26,10 +26,6 @@ export default function Hero() {
               <Button asChild variant="outline" size="lg" className="border-blue-700 text-blue-700 hover:bg-blue-50">
                 <a href="#contact">Get a Free Quote</a>
               </Button>
-              <div className="absolute">
-<div className="absolute dropdiv drop left-[calc(50%-100px)] top-[calc(50%-100px)]"></div>
-<div className="absolute dropdiv wave left-[calc(50%-100px)] top-[calc(50%-100px)]"></div>
-</div>
             </div>
             <div className="flex items-center gap-2 text-sm text-gray-600">
               <span className="inline-block rounded-full bg-green-100 px-2 py-1 text-xs font-medium text-green-800">

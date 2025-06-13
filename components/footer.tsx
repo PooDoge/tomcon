@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Facebook, Instagram, Twitter, Linkedin, Phone, Mail } from "lucide-react"
+import { Facebook, Instagram, Phone, Mail } from "lucide-react"
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -24,32 +24,18 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="http://facebook.com/profile.php?id=61568677793402"
                 className="rounded-full bg-blue-800 p-2 text-blue-100 transition-colors hover:bg-blue-700 hover:text-white"
               >
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/tomconrestore/"
                 className="rounded-full bg-blue-800 p-2 text-blue-100 transition-colors hover:bg-blue-700 hover:text-white"
               >
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
-              </a>
-              <a
-                href="#"
-                className="rounded-full bg-blue-800 p-2 text-blue-100 transition-colors hover:bg-blue-700 hover:text-white"
-              >
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </a>
-              <a
-                href="#"
-                className="rounded-full bg-blue-800 p-2 text-blue-100 transition-colors hover:bg-blue-700 hover:text-white"
-              >
-                <Linkedin className="h-5 w-5" />
-                <span className="sr-only">LinkedIn</span>
               </a>
             </div>
           </div>

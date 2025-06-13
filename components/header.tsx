@@ -6,7 +6,6 @@ import Image from "next/image"
 import { Menu, X, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
-import "./drip.css"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
